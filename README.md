@@ -30,8 +30,10 @@ Dependencies
       was written, Clang does not use multiple threads of OpenMP, the
       technology behind the paralyzation of the decoding process.
 
-- IBM ILOG CPLEX >= 12.5.0 for algorithm versions depending on LP relaxations
-  (CALP, GALP). CPLEX libs can be disabled on the Makefile;
+- [IBM ILOG CPLEX >=
+  12.5.0](https://www.ibm.com/products/ilog-cplex-optimization-studio) for
+  algorithm versions depending on LP relaxations (CALP, GALP). CPLEX libs can
+  be disabled on the Makefile;
 
 This package also includes a modified version of the
 [brkgaAPI](https://github.com/rfrancotoso/brkgaAPI). 
